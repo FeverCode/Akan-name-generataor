@@ -28,6 +28,7 @@ body::before {
     z-index: -1;
     backdrop-filter: brightness(120%);
     opacity: 0.5;
+    filter: blur(4px);
     
     
 }
@@ -104,7 +105,7 @@ body::before {
     }
 }
  .table h2 {
-     color:white;
+     color:aqua;
  }
 
  .card h5, p {
@@ -117,14 +118,15 @@ body::before {
      background-image: url(https://user-images.githubusercontent.com/66039545/156769329-18b82418-250b-4ba0-94db-f45b3d5f2b17.jpeg);
      background-repeat: no-repeat;
      background-size: cover;
-     opacity: 0.9;
+     opacity: 0.7;
+ }
+ 
+ h1, h4{
+     color: aqua;
  }
 
- h1{
-     color: white;
+ #txt, #txt2 {
+     color: aqua;
  }
 
-a {
-    color: blue;
-}
 
