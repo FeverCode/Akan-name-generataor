@@ -26,7 +26,10 @@ body::before {
     top: 0;
     height: 100vh;
     z-index: -1;
-    opacity: 0.1;
+    backdrop-filter: brightness(120%);
+    opacity: 0.5;
+    
+    
 }
 
 #header {
@@ -101,6 +104,27 @@ body::before {
     }
 }
  .table h2 {
-     color: green;
+     color:white;
  }
+
+ .card h5, p {
+     font-weight: 900;
+     font-size: medium;
+     color:red-orange;
+ }
+
+ .card {
+     background-image: url(https://user-images.githubusercontent.com/66039545/156769329-18b82418-250b-4ba0-94db-f45b3d5f2b17.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     opacity: 0.9;
+ }
+
+ h1{
+     color: white;
+ }
+
+a {
+    color: blue;
+}
 

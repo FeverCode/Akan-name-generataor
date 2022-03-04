@@ -21,7 +21,7 @@
 
 <body>
     <header id="header">
-        <div class="container">
+        <div class="container" id="white">
             <h1 class="text-center">Hello welcome to Akan name generator</h1>
             <p>Akan (Twi, Asante) names are the names used by the Akan people of Ghana and the Ivory Coast, who are
                 frequently naming their baby boys and baby girls after the day of the week in which they were born and
@@ -42,7 +42,7 @@
     </header>
     <section class="table" id="table">
         <div class="container">
-            <h2>Below is a list of Akan names according to the day of the week you were born according to gender</h2>
+            <h2>Below is a list of Akan names according to your gender and the day of the week you were born</h2>
             <table class="table table-primary">
                 <thead>
                     <tr>
@@ -102,32 +102,55 @@
 
     <section class="form">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="mb-3">
-                        <label for="formGroupExampleInput" class="form-label">Year</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="YYYY">
+            <section class="section-title ps-5">
+                <h4>How to use Akan Name <br> Generator</h4>
+            </section>
+            <div class="row ps-5">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card text-center" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Step 1</h5>
+                            <p class="card-text">Click the calender icon on the form and select your birthday in the
+                                format month, date, year and the select gender by checking the appropriate box.</p>
+                            <h5 class="card-title mt-4">Step 2</h5>
+                            <p class="card-text">Click the generate name button and your Akan name and the day of the week you were born will be displayed.
+                            </p>
+                        </div>
                     </div>
-                    <div class="mb-3">
-                        <label for="formGroupExampleInput2" class="form-label">Month</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="MM">
-                    </div>
-                    <div class="mb-3">
-                        <label for="formGroupExampleInput2" class="form-label">Day</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="DD">
-                    </div>
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                </div>
+                <div class="col-lg-4 col-md-6">
+                <section class="section-title mt-2">
+                    <h4> Akan Name Generator</h4>
+                </section>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">Birthday</label>
+                    <input type="date" class="form-control" required id="formGroupExampleInput" placeholder="YYYY">
+                </div>
+                <div class="mb-3 form-check">
+                        <input type="checkbox" required class="form-check-input" id="exampleCheck1">
                         <label class="form-check-label" for="exampleCheck1">Male</label>
                     </div>
                     <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <input type="checkbox" required class="form-check-input" id="exampleCheck1">
                         <label class="form-check-label" for="exampleCheck1">Female</label>
                     </div>
-                    <button type="submit" class="btn btn-primary">Generate name</button>
-                    </form>
-                </div>
+                <button type="submit" class="btn btn-primary">Generate name</button>
+                <button type="submit" class="btn btn-primary">Clear Input </button>
+                <p>Akan name will be displayed here</p>
+                </form>
+
             </div>
+            </div>
+            
+            <section>
+                <footer>
+                    <div class="footer text-center mt-3">
+                        Designed by <a href="https://github.com/FeverCode">FeverCode</a>
+
+                    </div>
+                </footer>
+            </section>
+        </div>
         </div>
     </section>
 
