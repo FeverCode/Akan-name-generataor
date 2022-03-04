@@ -35,11 +35,101 @@
                 year of birth, month of birth, day of birth and select gender. Using a formula assigned, it will be
                 possible to determine the exact day of the week the user was born
                 and give them an Akan name based on their gender.</p>
-            <p>Below is a list of Akan names according to the day of the week you were born</p>
 
+            <a href="#table" class="scroll-down" address="true"></a>
         </div>
 
     </header>
+    <section class="table" id="table">
+        <div class="container">
+            <h2>Below is a list of Akan names according to the day of the week you were born according to gender</h2>
+            <table class="table table-primary">
+                <thead>
+                    <tr>
+                        <th scope="col">Gender</th>
+                        <th scope="col">Male</th>
+                        <th scope="col">Female</th>
+                        <th scope="col">Day of the week</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Kwasi</td>
+                        <td>Akosua</td>
+                        <td>Sunday</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Kwadwo</td>
+                        <td>Adwoa</td>
+                        <td>Monday</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Kwabena</td>
+                        <td>Abenaa</td>
+                        <td>Tuesday</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Kwaku</td>
+                        <td>Akua</td>
+                        <td>Wednesday</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>Yaw</td>
+                        <td>Yaa</td>
+                        <td>Thursday</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td>Kofi</td>
+                        <td>Afua</td>
+                        <td>Friday</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">7</th>
+                        <td>Kwame</td>
+                        <td>Ama</td>
+                        <td>Ama</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="form">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Year</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="YYYY">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Month</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="MM">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Day</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="DD">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Male</label>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Female</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Generate name</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <!--Optional Scripts-->
@@ -49,9 +139,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
     </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
     <!--Js Script-->
-    <script src="main.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
