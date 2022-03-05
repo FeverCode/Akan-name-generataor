@@ -26,9 +26,11 @@
             <p>Akan (Twi, Asante) names are the names used by the Akan people of Ghana and the Ivory Coast, who are
                 frequently naming their baby boys and baby girls after the day of the week in which they were born and
                 the order of birth for each of them, like first born Píèsíe, second born for baby boy Mǎnu/ for baby
-                girl Máanu etc. See also, <a href="https://www.thenamemeaning.com/origin/african/">African origin </a>
+                girl Máanu etc. See also, <a href="https://www.thenamemeaning.com/origin/african/"
+                    target="_blank">African origin </a>
                 baby names for more information about Akan boy names and Akan girl names and Ghanaian names to learn
-                more about <a href="https://www.thenamemeaning.com/categories/ghanaian-names/">Ghanaian name </a>
+                more about <a href="https://www.thenamemeaning.com/categories/ghanaian-names/" target="_blank">Ghanaian
+                    name </a>
                 meanings.</p>
             <p>Akan name generator takes a user's birthday on the form provided and calculates the day of the week they
                 were born and then depending on their gender outputs their Akan Name. This app will take in a user's
@@ -110,38 +112,43 @@
                     <div class="card text-center" style="width: 18rem;">
                         <div class="card-body">
                             <h5 class="card-title">Step 1</h5>
-                            <p class="card-text" id="txt">Click the calender icon on the form and select your birthday in the
+                            <p class="card-text" id="txt">Click the calender icon on the form and select your birthday
+                                in the
                                 format month, date, year and the select gender by checking the appropriate box.</p>
                             <h5 class="card-title mt-4">Step 2</h5>
-                            <p class="card-text" id="txt2">Click the generate name button and your Akan name and the day of the week you were born will be displayed.
+                            <p class="card-text" id="txt2">Click the generate name button and your Akan name and the day
+                                of the week you were born will be displayed.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                <section class="section-title mt-2">
-                    <h4> Akan Name Generator</h4>
-                </section>
-                <div class="mb-3">
-                    <label for="formGroupExampleInput" class="form-label">Birthday</label>
-                    <input type="date" class="form-control" required id="formGroupExampleInput" placeholder="YYYY">
-                </div>
-                <div class="mb-3 form-check">
-                        <input type="checkbox" required class="form-check-input" id="exampleCheck1">
+                    <section class="section-title mt-2">
+                        <h4> Akan Name Generator</h4>
+                    </section>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Birthday</label>
+                        <input type="date" class="form-control" required id="formGroupDateInput">
+                    </div>
+                    <section class="section-title">
+                        <h4>Gender</h4>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" required class="form-check-input" id="maleCheck">
                         <label class="form-check-label" for="exampleCheck1">Male</label>
                     </div>
+                    </section>
                     <div class="mb-3 form-check">
-                        <input type="checkbox" required class="form-check-input" id="exampleCheck1">
+                        <input type="checkbox" required class="form-check-input" id="femaleCheck">
                         <label class="form-check-label" for="exampleCheck1">Female</label>
                     </div>
-                <button type="submit" class="btn btn-primary">Generate name</button>
-                <button type="submit" class="btn btn-primary">Clear Input </button>
-                <p>Akan name will be displayed here</p>
-                </form>
+                    <button type="submit" onclick="generateName()" class="btn btn-primary">Generate name</button>
+                    <button type="submit" class="btn btn-primary">Clear Input </button>
+                    <p id="result">Akan name will be displayed here</p>
+                    </form>
 
+                </div>
             </div>
-            </div>
-            
+
             <section>
                 <footer>
                     <div class="footer text-center mt-3">
