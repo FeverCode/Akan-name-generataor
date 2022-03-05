@@ -104,17 +104,16 @@
 
     <section class="form">
         <div class="container">
-            <section class="section-title ps-5">
-                <h4>How to use Akan Name <br> Generator</h4>
-            </section>
             <div class="row ps-5">
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6 mt-4">
+                    <section class="section-title">
+                        <h4>How to use Akan Name <br> Generator</h4>
+                    </section>
                     <div class="card text-center" style="width: 18rem;">
                         <div class="card-body">
                             <h5 class="card-title">Step 1</h5>
-                            <p class="card-text" id="txt">Click the calender icon on the form and select your birthday
-                                in the
-                                format month, date, year and the select gender by checking the appropriate box.</p>
+                            <p class="card-text" id="txt">On the form enter year of birth, month of birth, and date of
+                                birth as per the examples shown.</p>
                             <h5 class="card-title mt-4">Step 2</h5>
                             <p class="card-text" id="txt2">Click the generate name button and your Akan name and the day
                                 of the week you were born will be displayed.
@@ -122,24 +121,35 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <section class="section-title mt-2">
+                <div class="col-lg-4 col-md-6 mt-4">
+                    <section class="section-title">
                         <h4> Akan Name Generator</h4>
                     </section>
-                    <div class="mb-3">
-                        <label for="formGroupExampleInput" class="form-label">Birthday</label>
-                        <input type="date" class="form-control" required id="dateInput">
+                    <div class="mb-2">
+                        <label for="formGroupExampleInput" class="form-label">Year of Birth:</label>
+                        <input type="number" class="form-control" required id="ValidationformGroupExampleInput"
+                            id="yearInput" placeholder="Year of birth e.g: 2000 if born in 2000">
+                    </div>
+                    <div class="mb-2">
+                        <label for="formGroupExampleInput" class="form-label">Month of Birth:</label>
+                        <input type="number" class="form-control" required id="ValidationformGroupExampleInput"
+                            id="monthInput" placeholder="Month of birth Eg: 01 if born in January ">
+                    </div>
+                    <div class="mb-2">
+                        <label for="formGroupExampleInput" class="form-label">Date of Birth:</label>
+                        <input type="number" class="form-control" required id="ValidationformGroupExampleInput"
+                            id="dateInput" placeholder="Date of the month you were born">
                     </div>
                     <section class="section-title">
                         <h4>Gender</h4>
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" required class="form-check-input" id="maleCheck">
-                        <label class="form-check-label" for="exampleCheck1">Male</label>
-                    </div>
+                        <div class="mb-2 form-check">
+                            <input type="checkbox" required class="form-check-input" name="gender" id="maleCheck">
+                            <label class="form-check-label" for="exampleCheck1" id="ValidatioexampleCheck1">Male</label>
+                        </div>
                     </section>
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" required class="form-check-input" id="femaleCheck">
-                        <label class="form-check-label" for="exampleCheck1">Female</label>
+                    <div class="mb-2 form-check">
+                        <input type="checkbox" required class="form-check-input" name="gender" id="femaleCheck">
+                        <label class="form-check-label" for="exampleCheck1" id="ValidatioexampleCheck1">Female</label>
                     </div>
                     <button type="submit" onclick="generateName()" class="btn btn-primary">Generate name</button>
                     <button type="submit" class="btn btn-primary">Clear Input </button>
@@ -174,6 +184,7 @@
 
     <!--Js Script-->
     <script src="script.js"></script>
+
 </body>
 
 </html>
