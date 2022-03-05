@@ -12,6 +12,12 @@
   var femaleName = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
   function generateName(){
+    var birthDay = document.getElementById("dateInput").value;
+    var date = new Date(birthDay);
+    var dayOfBirth = date.getDay();
+
+    
+
 
 
 
