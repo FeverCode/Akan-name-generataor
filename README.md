@@ -4,13 +4,14 @@
 ## Table of Content
 
 + [Description](#description)
-+ [Installation](Installation)
-+ [Dependecies](Dependecies)
-+ [Requirements](Requirements)
++ [Installation](#installation)
++ [Dependecies](#dependecies)
++ [Requirements](#requirements)
++ [BDD](#behaviour-driven-development)
 + [Technology Used](#technology-used)
 + [Reference](#reference)
 + [Licence](#licence)
-+ [Authors Info](author-Info)
++ [Authors Info](#authors-info)
 
 ![Screenshot](https://github.com/FeverCode/Akan-name-generataor/blob/main/screenshot.png)
 
