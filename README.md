@@ -20,7 +20,7 @@
 
 <P>Below is the live link to the project</P>
 
-[Akan name generator]()
+[Akan name generator](https://fevercode.github.io/Akan-name-generataor/)
 
 ## Installation
 In terminal `git clone https://github.com/FeverCode/Akan-name-generataor` to your desired local folder.
