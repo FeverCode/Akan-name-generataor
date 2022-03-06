@@ -73,7 +73,7 @@ function generateName() {
     document.getElementById("output").innerHTML = ("You were born on" + '  ' +dayOfWeek[6] + '  ' +"and your Akan Name is"+ '  ' +femaleNames[6]);
   }
   else {
-    alert("please fill in data");
+    alert("Please fill in data correctly");
   }
 
 }
