@@ -133,10 +133,15 @@ function dayOfBirth() {
 
       break;
   }
+
+  var form = document.getElementById("myForm");
+  function handleForm(event) {
+    event.preventDefault();
+  }
+  form.addEventListener("submit", handleForm);
 }
 
 
 
-function clearOutput() {
-  document.getElementById('display').innerHTML = "";
-}
+
+

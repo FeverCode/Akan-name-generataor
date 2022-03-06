@@ -132,8 +132,6 @@ body::before {
      color: blue;
  }
 
- #output {
-     color: crimson;
- }
-
-
+span {
+    color: crimson;
+}
