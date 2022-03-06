@@ -12,6 +12,8 @@
 + [Licence](#licence)
 + [Authors Info](author-Info)
 
+![Screenshot](https://github.com/FeverCode/Akan-name-generataor/blob/main/screenshot.png)
+
 ## Description
 <p> Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names. This app takes a user's birthday on the form provided and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. This app will take in a user's year of birth, month of birth, day of birth and select gender. Using a formula assigned to a variable(dayOfWeekNumber), it will be possible to determine the exact day of the week the user was born and give them an Akan name based on their gender.</p>
 
@@ -34,6 +36,23 @@ To clone this project to your local folder, you will first need to install git. 
 * Either a computer,phone,tablet or an Ipad
 
 * Access to the Internet
+
+## Behaviour Driven Development
+
+1. Displays Form For Entering Date and Gender
+   - INPUT: "User's Birthdate Entered"
+   - INPUT: "User's Gender Entered"
+   - OUTPUT: "Displays User's Akan Name According to Submitted Date and Gender"
+2. Displays an Error Message if Date Input Left Blank
+   - INPUT: ""
+   - OUTPUT: "Displays Error Message"
+3. Displays an Error Message if Gender Not Chosen
+   - INPUT: "" 
+   - OUTPUT: "Display an Error Message" 
+4. Clears Form and Reset the Message on Click
+   - INPUT: "Click Reset Button" 
+   - OUTPUT: "Clears and Resets the Form"
+
 
 ## Technology Used
 * HTML - which was used to build the general structure of the page.
