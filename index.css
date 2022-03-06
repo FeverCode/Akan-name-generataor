@@ -124,6 +124,9 @@ body::before {
  h1, h4, h5{
      color: aqua;
  }
+ h1 p {
+     font-size: 400px;
+ }
 
  .step {
      color: aqua;
