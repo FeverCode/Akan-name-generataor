@@ -77,3 +77,6 @@ function generateName() {
   }
 
 }
+function clearOutput(){
+    document.getElementById('output').innerHTML = "";
+}
