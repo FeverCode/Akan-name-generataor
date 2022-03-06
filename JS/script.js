@@ -139,6 +139,10 @@ function dayOfBirth() {
     event.preventDefault();
   }
   form.addEventListener("submit", handleForm);
+
+}
+ function clearOutput() {
+document.getElementById('display').innerHTML = "";
 }
 
 
