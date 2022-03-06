@@ -102,7 +102,7 @@
         </div>
     </section>
 
-    <section class="form">
+    <section>
         <div class="container">
             <div class="row ps-5">
                 <div class="col-lg-4 col-md-6 mt-4">
@@ -112,8 +112,8 @@
                     <div class="card text-center" style="width: 18rem;">
                         <div class="card-body">
                             <h5 class="card-title">Step 1</h5>
-                            <p class="card-text" id="txt">On the form enter year of birth, month of birth, and date of
-                                birth as per the examples shown.</p>
+                            <p class="card-text" id="txt">On the form enter year of birth, month of birth, and date of the month
+                                 as per the examples shown.</p>
                             <h5 class="card-title mt-4">Step 2</h5>
                             <p class="card-text" id="txt2">Click the generate name button and your Akan name and the day
                                 of the week you were born will be displayed.
@@ -122,68 +122,59 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-4">
-                    <section class="section-title">
-                        <h4> Akan Name Generator</h4>
-                    </section>
-                    <div class="mb-2">
-                        <label for="formGroupExampleInput" class="form-label">Year of Birth:</label>
-                        <input type="number" class="form-control" required id="ValidationformGroupExampleInput"
-                            id="yearInput" placeholder="Year of birth e.g: 2000 if born in 2000">
-                    </div>
-                    <div class="mb-2">
-                        <label for="formGroupExampleInput" class="form-label">Month of Birth:</label>
-                        <input type="number" class="form-control" required id="ValidationformGroupExampleInput"
-                            id="monthInput" placeholder="Month of birth Eg: 01 if born in January ">
-                    </div>
-                    <div class="mb-2">
-                        <label for="formGroupExampleInput" class="form-label">Date of Birth:</label>
-                        <input type="number" class="form-control" required id="ValidationformGroupExampleInput"
-                            id="dateInput" placeholder="Date of the month you were born">
-                    </div>
-                    <section class="section-title">
-                        <h4>Gender</h4>
-                        <div class="mb-2 form-check">
-                            <input type="checkbox" required class="form-check-input" name="gender" id="maleCheck">
-                            <label class="form-check-label" for="exampleCheck1" id="ValidatioexampleCheck1">Male</label>
+                    <h4> Akan Name Generator</h4>
+                    <form   class="form">
+                        <div class="form-group mb-2">
+                            <label>Year of Birth:</label>
+                            <input type="text" class="form-control" id="year"
+                                placeholder="Year of birth e.g: 2000 if born in 2000" name="year" required>
                         </div>
-                    </section>
-                    <div class="mb-2 form-check">
-                        <input type="checkbox" required class="form-check-input" name="gender" id="femaleCheck">
-                        <label class="form-check-label" for="exampleCheck1" id="ValidatioexampleCheck1">Female</label>
-                    </div>
-                    <button type="submit" onclick="generateName()" class="btn btn-primary">Generate name</button>
-                    <button type="submit" class="btn btn-primary">Clear Input </button>
-                    <p id="result">Akan name will be displayed here</p>
+                        <div class="form-group mb-2">
+                            <label>Month of Birth:</label>
+                            <input type="text" class="form-control" id="month"
+                                placeholder="Month of birth Eg: 01 if born in January " name="month" required>
+                        </div>
+                        <div class="form-group mb-2">
+                            <label>Date of Month:</label>
+                            <input type="number" class="form-control" id="day"
+                                placeholder="Date of the month you were born" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <h4>Gender</h4>
+                            <div class="form-check mb-1">
+                                <input type="radio" name="gender" id="gender" required>
+                                <label class="form-check-label">Male</label>
+                            </div>
+
+                            <div class="form-check mb-2">
+                                <input type="radio" name="gender" id="gender" required>
+                                <label class="form-check-label">Female</label>
+                            </div>
+                            <a href="#result"><button type="button"  name="button" onclick="generateName();" class="btn btn-primary mb-2" >Generate name</button></a> 
+                            <input type="reset" value="Reset" class="btn btn-primary mb-2">
+                        </div>
+                       
                     </form>
+                    <p id="output">Akan name will be displayed here</p>
 
                 </div>
             </div>
+    </section>
 
-            <section>
-                <footer>
-                    <div class="footer text-center mt-3">
-                        Designed by <a href="https://github.com/FeverCode">FeverCode</a>
+    <section>
+        <footer>
+            <div class="footer text-center mt-3">
+                Designed by <a href="https://github.com/FeverCode">FeverCode</a>
 
-                    </div>
-                </footer>
-            </section>
-        </div>
-        </div>
+            </div>
+        </footer>
+        <!--Js Script-->
+        <script src="./JS/script.js"></script>
+        <script src="./JS/animate.js"></script>
+
     </section>
 
 
-    <!--Optional Scripts-->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
-    </script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-    <!--Js Script-->
-    <script src="script.js"></script>
 
 </body>
 
