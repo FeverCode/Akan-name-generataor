@@ -112,8 +112,9 @@
                     <div class="card text-center" style="width: 18rem;">
                         <div class="card-body">
                             <h5 class="card-title">Step 1</h5>
-                            <p class="card-text" id="txt">On the form enter year of birth, month of birth, and date of the month
-                                 as per the examples shown.</p>
+                            <p class="card-text" id="txt">On the form enter year of birth, month of birth, and date of
+                                the month
+                                as per the examples shown.</p>
                             <h5 class="card-title mt-4">Step 2</h5>
                             <p class="card-text" id="txt2">Click the generate name button and your Akan name and the day
                                 of the week you were born will be displayed.
@@ -123,39 +124,30 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mt-4">
                     <h4> Akan Name Generator</h4>
-                    <form   class="form">
+                    <form id="myForm">
                         <div class="form-group mb-2">
-                            <label>Year of Birth:</label>
-                            <input type="text" class="form-control" id="year"
-                                placeholder="Year of birth e.g: 2000 if born in 2000" name="year" required>
+                            <label for="year">Birthday:</label>
+                            <input type="date" class="form-control" id="datepicker" placeholder="mm/dd/yy" name="year"
+                                required />
                         </div>
-                        <div class="form-group mb-2">
-                            <label>Month of Birth:</label>
-                            <input type="text" class="form-control" id="month"
-                                placeholder="Month of birth Eg: 01 if born in January " name="month" required>
-                        </div>
-                        <div class="form-group mb-2">
-                            <label>Date of Month:</label>
-                            <input type="number" class="form-control" id="day"
-                                placeholder="Date of the month you were born" name="date" required>
-                        </div>
+
                         <div class="form-group">
                             <h4>Gender</h4>
                             <div class="form-check mb-1">
-                                <input type="radio" name="gender" id="gender" required>
+                                <input type="radio" name="gender" id="male" required>
                                 <label class="form-check-label">Male</label>
                             </div>
-
                             <div class="form-check mb-2">
-                                <input type="radio" name="gender" id="gender" required>
+                                <input type="radio" name="gender" id="female" required>
                                 <label class="form-check-label">Female</label>
                             </div>
-                            <a href="#result"><button type="button"  name="button" onclick="generateName();" class="btn btn-primary mb-2" >Generate name</button></a> 
-                            <button type="reset" onclick="clearOutput();" class="btn btn-primary mb-2">Reset</button>
+                            <button type="submit" name="button" onclick="dayOfBirth();"
+                                    class="submit-btn btn-primary mb-2">Generate name</button></a>
+                            <button type="reset" onclick="clearOutput();" class="reset-btn btn-primary mb-2">Reset</button>
                         </div>
-                       
+
                     </form>
-                    <p id="output">Akan name will be displayed here</p>
+                    <p class="text-center" id="display">Akan name will be displayed here</p>
 
                 </div>
             </div>
