@@ -29,18 +29,17 @@ body::before {
     backdrop-filter: brightness(120%);
     opacity: 0.5;
     filter: blur(4px);
-    
-    
+
+
 }
 
 #header {
-    transition: ease-in-out 0.3s;
     position: relative;
     height: 100vh;
     display: flex;
     align-items: center;
-    z-index: 997;
     overflow-y: auto;
+    line-height: 1;
 }
 
 .scroll-down {
@@ -104,37 +103,41 @@ body::before {
         transform: translateY(-5px);
     }
 }
- .table h2 {
-     color:aqua;
- }
 
- .card h5, p {
-     font-weight: 900;
-     font-size: medium;
-     color:red-orange;
- }
+.table h2 {
+    color: aqua;
+}
 
- .card {
-     background-image: url(https://user-images.githubusercontent.com/66039545/156769329-18b82418-250b-4ba0-94db-f45b3d5f2b17.jpeg);
-     background-repeat: no-repeat;
-     background-size: cover;
-     opacity: 0.7;
- }
- 
- h1, h4, h5{
-     color: aqua;
- }
+.card h5,
+p {
+    font-weight: 900;
+    font-size: medium;
+    color: red-orange;
+}
 
- .step {
-     color: aqua;
- }
+.card {
+    background-image: url(https://user-images.githubusercontent.com/66039545/156769329-18b82418-250b-4ba0-94db-f45b3d5f2b17.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
 
- #txt, #txt2 {
-     color: blue;
- }
+h1,
+h4,
+h5 {
+    color: aqua;
+}
 
- #output {
-     color: crimson;
- }
+.step {
+    color: aqua;
+}
 
+#txt,
+#txt2 {
+    color: blue;
+}
 
+span {
+    color: crimson;
+    font-size: large;
+}
