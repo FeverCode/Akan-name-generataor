@@ -13,7 +13,7 @@
 + [Licence](#licence)
 + [Authors Info](#authors-info)
 
-![Screenshot](https://github.com/FeverCode/Akan-name-generataor/blob/main/screenshot.png)
+![Screenshot](https://github.com/FeverCode/Akan-name-generataor/blob/gh-pages/Screenshot%20from%202022-03-06%2012-45-25.png)
 
 ## Description
 <p> Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names. This app takes a user's birthday on the form provided and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. This app will take in a user's year of birth, month of birth, day of birth and select gender. Using a formula assigned to a variable(dayOfWeekNumber), it will be possible to determine the exact day of the week the user was born and give them an Akan name based on their gender.</p>
