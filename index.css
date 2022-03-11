@@ -34,10 +34,17 @@ body::before {
 }
 
 #header {
+<<<<<<< HEAD
     position: relative;
     height: 100vh;
     display: flex;
     align-items: center;
+=======
+    position: relative; 
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+>>>>>>> gh-pages
     overflow-y: auto;
     line-height: 1;
 }
